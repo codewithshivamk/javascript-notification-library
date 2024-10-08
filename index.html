@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+  <title>Nuts Js | Toast Notification Library</title>
+</head>
+<body>
+  <style>
+    .btnwrap{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 10px;
+      display: table-cell;
+    }
+
+    button {
+      font-size: .9rem;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid #111;
+      background-color: #222;
+      color: #eee;
+      cursor: pointer;
+      margin: .5rem;
+    }
+
+    button:hover{
+      background-color: #2a2a2a;
+      color: #fff;
+    }
+  </style>
+    <div class="btnwrap">
+      <button style="padding: .8rem 1.8rem;" class="btnlefttop" class="button">Left Top</button>
+      <button style="padding: .8rem 1.2rem;" class="btnleftbottom" class="button">Left Bottom</button>
+    </div>
+    <div class="btnwrap">
+      <button style="padding: .8rem 1.8rem;" class="btnrighttop" class="button">Right Top</button>
+      <button style="padding: .8rem 1.2rem;" class="btnrightbottom" class="button">Right Bottom</button>
+    </div>
+</body>
+</html>
